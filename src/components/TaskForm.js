@@ -3,7 +3,7 @@ import * as xlsx from 'xlsx/xlsx.mjs';
 export default function TaskForm() {
   const readUploadFile = (e) => {
     e.preventDefault();
-    if (e.target.files) {
+   /*  if (e.target.files) {
         const reader = new FileReader();
         reader.onload = (e) => {
             const data = e.target.result;
@@ -17,7 +17,7 @@ export default function TaskForm() {
             
         };
         reader.readAsArrayBuffer(e.target.files[0]);
-    }
+    } */
 }
   return (
     <div><form>
